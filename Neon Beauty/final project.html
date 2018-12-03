@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <title> Neon beauty </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+  </head>
+
+
+<body background="background2.jpg">
+    <header>
+    <h1 class="font"> NEON BEAUTY</h1>
+    <div class="imageheader">
+    <img src="download.jpg" alt="neon pic" width=22.5% height=200px>
+    <img src="hot-pink-lips.jpg" alt="lips" width=22.5% height=200px>
+    <img src="makeup.jpg" alt="makeup" width=22.5% height=200px>
+    <img src="hearts.jpg" alt="hearts" width=22.5% height=200px>
+    </div>
+    </header>
+
+    <nav>
+      <a class="active" href="final project.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="tips.html">Tips</a>
+    </nav>
+      <img class="mySlides" src="products.jpg" style="width:45%" height="40%">
+      <img class="mySlides" src="eyes.jpg" style="width:45%" height="40%">
+      <img class="mySlides" src="neon lips.jpg" style="width:45%" height="40%">
+      <img class="mySlides" src="eye.jpg" style="width:45%" height="40%">
+
+    <script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+    }
+    </script>
+
+
+<footer class="homefooter"> copyright neonbeauty 2018 </footer>
+
+  </body>
+</html>

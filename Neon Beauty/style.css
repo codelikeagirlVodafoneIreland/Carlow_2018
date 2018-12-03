@@ -1,0 +1,150 @@
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: #F968B1;
+  font-size: 30px;
+}
+
+.font{
+  font-family: cursive;
+  text-align: center;
+  color: #F968B1;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.imageheader{
+  padding-left: 100px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: black;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: grey;
+  color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bodytext{
+  color: black;
+  font-family: cursive;
+  text-align: center;
+}
+
+.productitem {
+  color: white;
+  float: left;
+  width: 25%;
+}
+
+.contactus {
+  color: black;
+}
+
+
+.mySlides{
+  margin-left: 372px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+footer{
+  position: fixed;
+  bottom:0;
+  padding: 5px;
+  left:0;
+  width: 100%;
+  background: black;
+  text-align: center;
+  border-top: white 2px solid;
+  color: lightpink;
+}
+
+.homefooter{
+  position: fixed;
+  bottom:0;
+  padding: 0px;
+  left:0;
+  width:100%;
+  background:black;
+  text-align: center;
+  border-top :white 2px solid;
+  color: lightpink;
+  font-size: 16px;
+  font-family: times;
+}
