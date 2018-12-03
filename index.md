@@ -1,6 +1,6 @@
 ## Welcome to Carlow CodeLikeAGirl project files
 
-Project 1: [Wherever, Whenever](https://codelikeagirlvodafoneireland.github.io/Carlow_2018/Wherever-Whenever/Home.html)
+Project 1: [Wherever, Whenever](https://codelikeagirlvodafoneireland.github.io/Carlow_2018/Wherever-%20Whenever/Home.html)
 
 Project 2: [Turnip the Beet](https://codelikeagirlvodafoneireland.github.io/Carlow_2018/Turnip%20the%20Beet/Turnipthebeet.html)
 
