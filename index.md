@@ -2,7 +2,7 @@
 
 Project 1: [Wherever, Whenever](https://codelikeagirlvodafoneireland.github.io/Carlow_2018/Wherever-Whenever/Home.html)
 
-Project 2: [Turnip the Beet (https://github.com/codelikeagirlVodafoneIreland/Carlow_2018/tree/master/Turnip%20the%20Beet/Turnipthebeet.html)
+Project 2: [Turnip the Beet](https://github.com/codelikeagirlVodafoneIreland/Carlow_2018/tree/master/Turnip%20the%20Beet/Turnipthebeet.html)
 
 Project 3: [Positivity Centre](https://github.com/codelikeagirlVodafoneIreland/Carlow_2018/tree/master/Positivity%20Centre/homepage.html)
 
