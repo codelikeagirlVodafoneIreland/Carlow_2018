@@ -1,0 +1,108 @@
+<<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Brenda Denim Jacket</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+      <img src="crownpic.png" alt="logo" class="logo">
+      <h1>Daring Denim </h1>
+      </div>
+      </header>
+
+      <!DOCTYPE html>
+<html>
+<title>Daring Denim</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style1.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<div class="row">
+<div class="imagecolumn">
+  <img class="mySlides" src="slide.jpg" style="width:25%">
+  <img class="mySlides" src="slide1.jpg" style="width:25%">
+  <img class="mySlides" src="slide2.jpg" style="width:25%">
+  <img class="mySlides" src="slide4.jpg" style="width:25%">
+   <img class="mySlides" src="slide5.jpg" style="width:25%">
+   <iframe src="https://player.vimeo.com/video/194503837?autoplay=1%20autoplay=" width=400px height=200px></iframe>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<div class="imagecolumn">
+      <h5>Brenda Denim Jacket</h5>
+<hr></hr>
+      <p> £19.99</p>
+      <p><b>Product Description</b></p>
+      <p>Style the denim trend with this oversized jacket, featuring bang on trend ripped design and unfinished hem. Wear over a fitted dress or killer heels for an edgy look.
+
+Length approx 59cm/23" (Based on a sample size S)
+Model wears size S </p>
+
+
+
+  <select>
+  	<option value="small">S</option>
+  	<option value="medium">M</option>
+  	<option value="large">L</option>
+  </select>
+
+  <select>
+  	<option value="Blue">Blue</option>
+  	<option value="Black">Black</option>
+  </select>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<div class="w3-container">
+
+<h2>next page</h2>
+
+<div class="w3-bar">
+  <a href="#" class="w3-button">1</a>
+  <a href="#" class="w3-button">2</a>
+  <a href="#" class="w3-button">3</a>
+  <a href="#" class="w3-button">4</a>
+  <a href="#" class="w3-button">5</a>
+</div>
+
+<div class="w3-bar">
+  <a href="#" class="w3-bar-item w3-button">1</a>
+  <a href="#" class="w3-bar-item w3-button">2</a>
+  <a href="#" class="w3-bar-item w3-button">3</a>
+  <a href="#" class="w3-bar-item w3-button">4</a>
+  <a href="#" class="w3-bar-item w3-button">5</a>
+</div>
+
+</div>
+
+
+  </body>
+</html>
