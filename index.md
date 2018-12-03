@@ -12,4 +12,4 @@ Project 5: [Meme Encyclopedia](https://codelikeagirlvodafoneireland.github.io/Ca
 
 Project 6: [Neon Beauty](https://codelikeagirlvodafoneireland.github.io/Carlow_2018/Neon%20Beauty/final%20project.html)
 
-Project 7: [I-Scream Trailers](https://codelikeagirlvodafoneireland.github.io/Carlow_2018/I-Scream%20Trailers/index.html)
+Project 7: [I-Scream Trailers](https://codelikeagirlvodafoneireland.github.io/Carlow_2018/I-Scream%20Trailers/Index.html)
