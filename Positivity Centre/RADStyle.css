@@ -1,0 +1,57 @@
+
+
+
+
+
+h2{
+  color:black;
+  font-family:monospace;
+  text-align:left;
+}
+
+h3{
+    color:blue;
+    text-align: center;
+    font-style: italic;
+}
+
+h4{
+  text-align: center;
+}
+
+.banner{
+  background-image: url("sunset.png");
+  min-height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+h1{
+  background-color: pink;
+  text-align: center;
+}
+
+footer{
+  position: fixed;
+  bottom:  0;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  background: Black;
+  text-align: center;
+  border-top: grey 3px solid;
+}
+body{ background-color:white;
+}
+
+
+/* div{
+  margin-left:110px;
+} */

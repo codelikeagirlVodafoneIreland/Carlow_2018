@@ -1,0 +1,33 @@
+
+h3 {
+  color:Orange;
+  text-align: center;}
+
+  h1{
+    font-family: Arial, serif;
+  }
+
+body{background-color:#64E9EE ;
+}
+
+a {
+  color: purple;
+
+}
+a:visited{
+  color:red;
+  }
+
+a:hover{
+  color:black;
+}
+
+footer{
+  background-color: Black;
+  color: White;
+  bottom: 0;
+  padding-top: 10px;
+  width:100%;
+  text-align: center;
+  border-top: grey 3px solid;
+}
